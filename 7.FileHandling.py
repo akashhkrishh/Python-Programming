@@ -1,0 +1,8 @@
+text=open("New.txt","w")
+text.write("Python is a popular programming language.")
+text.close()
+text=open("New.txt","a")
+text.write("\nPython can be used on a server to create web applications.")
+text.close()
+text=open("New.txt","r")
+print(text.read())
