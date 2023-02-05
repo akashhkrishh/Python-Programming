@@ -3,7 +3,7 @@ while(True):
     r=int(input("Enter the RollNo : "))
     roll.add(r)
     ch=int(input("Enter 1 to Add One More : "))
-    if(ch!=0):
+    if(ch!=1):
         break
 
 course =dict()
