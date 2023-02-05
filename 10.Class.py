@@ -4,7 +4,7 @@ class product:
         self.name=name
         self.price=price
         self.quantity=quantity
-p1=product("Milk","50","1 kg")
+p1=product("Milk","50","1 litre")
 p2=product("Flour","70","100 gram")
 print("\nProduct Name : ",p1.name)
 print("Product Price : ",p1.price)
